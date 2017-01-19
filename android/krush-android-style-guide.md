@@ -297,10 +297,12 @@ public class MyAnnotatedClass { }
 
 __Fields__
 
-Annotations applying to fields should be listed __on the same line__, unless the line reaches the maximum line length.
+Annotations applying to fields should be listed __on the seperate lines__, and must be listed smallest to largest in terms of character length of annotation.
 
 ```java
-@Nullable @Mock DataManager mDataManager;
+@Mock
+@Nullable
+DataManager mDataManager;
 ```
 
 ### 2.2.6 Limit variable scope
